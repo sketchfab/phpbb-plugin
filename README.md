@@ -12,7 +12,7 @@ Author: Pierre-Antoine Passet (pa@sketchfab.com), Sketchfab (support@sketchfab.c
 Warning
 -------
 
-Some files of the following installation might be overwritten if you update your version of vBulletin. Be sure to copy the files back after updating.
+Some files of the following installation might be overwritten if you update your version of phpBB. Be sure to copy the files back after updating.
 
 Installation
 ------------
@@ -84,7 +84,7 @@ Installation
     4. At the end of the template file, before the final `</div><!-- ENDIF -->`, paste the following code:
 
        ```html
-           <input type="button" class="button2" name="sketchfab" value="3D model" onclick="sketchfabButton()" title="Insert a 3d model from Sketchfab" style="background: url('{PHPBB_ROOT_PATH}images/sketchfab/sketchfab.png') no-repeat 2px 50%, url('{T_THEME_PATH}/images/bg_button.gif'); padding-left: 17px;" />
+       <input type="button" class="button2" name="sketchfab" value="3D model" onclick="sketchfabButton()" title="Insert a 3d model from Sketchfab" style="background: url('{PHPBB_ROOT_PATH}images/sketchfab/sketchfab.png') no-repeat 2px 50%, url('{T_THEME_PATH}/images/bg_button.gif'); padding-left: 17px;" />
        ```
 
     4. Submit
